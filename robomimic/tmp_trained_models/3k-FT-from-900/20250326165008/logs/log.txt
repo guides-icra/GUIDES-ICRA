@@ -1,0 +1,378 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_quat', 'robot0_gripper_qpos', 'robot0_base_to_eef_pos']
+using obs modality: rgb with keys: ['robot0_agentview_right_image', 'robot0_eye_in_hand_image', 'robot0_agentview_left_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+devicebc cuda:0
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created GPT_Backbone model with number of parameters: 18906112
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|###3      | 1/3 [00:04<00:08,  4.12s/it]Loading checkpoint shards:  67%|######6   | 2/3 [00:08<00:04,  4.17s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:12<00:00,  4.15s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:12<00:00,  4.15s/it]
+devicebc cuda:0
+Created GPT_Backbone model with number of parameters: 18906112
+LOADING MODEL WEIGHTS FROM /weka/scratch/tshu2/xli383/research/completion-infuse-robot/models/3k_model_epoch_900.pth
+
+============= Model Summary =============
+ObservationKeyToModalityDict: mean not found, adding mean to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: scale not found, adding scale to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: logits not found, adding logits to mapping with assumed low_dim modality!
+BC_Transformer_GMM (
+  ModuleDict(
+    (policy): TransformerGMMActorNetwork(
+        action_dim=12, std_activation=softplus, low_noise_eval=True, num_nodes=5, min_std=0.005
+  
+        encoder=ObservationGroupEncoder(
+            group=obs
+            ObservationEncoder(
+                Key(
+                    name=robot0_agentview_left_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_agentview_right_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_eye_in_hand_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_gripper_qpos
+                    shape=[2]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                output_shape=[208]
+            )
+        )
+  
+        transformer=GPT_Backbone(
+          (activation): GELU(approximate='none')
+          (nets): ModuleDict(
+            (transformer): Sequential(
+              (0): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (1): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (2): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (3): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (4): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (5): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+            )
+            (output_ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+  
+        decoder=ObservationDecoder(
+            Key(
+                name=mean
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=scale
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=logits
+                shape=(5,)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=5, bias=True))
+            )
+        )
+    )
+  )
+)
+
+getting language embeddings...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|##########| 1/1 [00:00<00:00,  4.03it/s]100%|##########| 1/1 [00:00<00:00,  4.02it/s]
+getting language embeddings...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|##########| 1/1 [00:00<00:00, 16.41it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/49 [00:00<?, ?it/s]100%|##########| 49/49 [00:00<00:00, 3678.16it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/49 [00:00<?, ?it/s]100%|##########| 49/49 [00:00<00:00, 3450.31it/s]
+
+============= Training Dataset =============
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToCab/mg/2024-05-04-22-12-27_and_2024-05-07-07-39-33/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=50_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=50
+	num_sequences=12392
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCabToCounter/mg/2024-07-12-04-33-29/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=50_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=50
+	num_sequences=17254
+)
+
+**************************************************
+Warnings generated by robomimic have been duplicated here (from above) for convenience. Please check them carefully.
+**************************************************
+
+
+Epoch 0 Memory Usage: 3789 MB
+
+  0%|          | 0/10 [00:00<?, ?it/s]ObservationKeyToModalityDict: pad_mask not found, adding pad_mask to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: progresses not found, adding progresses to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: lang_emb not found, adding lang_emb to mapping with assumed low_dim modality!
+condition The robot is facing a cupcake on a cabinet and a bottle on the counter.
+next_action The robot should reach for the cupcake with its gripper.
+condition The robot is facing a cabinet with a banana inside, and there is a painting brush holder with brushes on the counter.
+next_action The robot should reach into the cabinet, pick up the banana, and place it on the counter.
+  0%|          | 0/10 [00:06<?, ?it/s]
+run failed with error:
+Could not parse both condition and next action.
+
+Traceback (most recent call last):
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/scripts/train.py", line 557, in main
+    train(config, device=device)
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/scripts/train.py", line 303, in train
+    step_log = TrainUtils.run_epoch(
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/utils/train_utils.py", line 989, in run_epoch
+    info = model.train_on_batch(input_batch, epoch, validate=validate, lang_encoder=lang_encoder)
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/algo/bc.py", line 296, in train_on_batch
+    results.append(process_index(i))
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/algo/bc.py", line 223, in process_index
+    condition, next_action = self.describer.describe(task=task_str, pil_img=PIL_img, eef=eef, rpy=rpy, gripper_distance=gripper_dis)
+  File "/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robomimic/state_infuse/describer.py", line 156, in describe
+    raise ValueError("Could not parse both condition and next action.")
+ValueError: Could not parse both condition and next action.
+
+Exception ignored When destroying _lsprof profiler:
+Traceback (most recent call last):
+  File "/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/cProfile.py", line 103, in runctx
+    self.disable()
+RuntimeError: Cannot install a profile function while another profile function is being installed

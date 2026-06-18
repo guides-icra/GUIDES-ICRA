@@ -1,0 +1,961 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_base_to_eef_pos', 'robot0_gripper_qpos', 'robot0_base_pos', 'robot0_base_to_eef_quat', 'robot0_base_quat']
+using obs modality: rgb with keys: ['robot0_agentview_left_image', 'robot0_eye_in_hand_image', 'robot0_agentview_right_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+devicebc cuda:0
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created GPT_Backbone model with number of parameters: 18906112
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|###3      | 1/3 [00:01<00:03,  1.78s/it]Loading checkpoint shards:  67%|######6   | 2/3 [00:03<00:01,  1.57s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:04<00:00,  1.48s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:04<00:00,  1.53s/it]
+devicebc cuda:0
+Created GPT_Backbone model with number of parameters: 18906112
+LOADING MODEL WEIGHTS FROM /scratch/tshu2/xli383/research/completion-infuse-robot/models/3k_model_epoch_900.pth
+
+============= Model Summary =============
+ObservationKeyToModalityDict: mean not found, adding mean to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: scale not found, adding scale to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: logits not found, adding logits to mapping with assumed low_dim modality!
+BC_Transformer_GMM (
+  ModuleDict(
+    (policy): TransformerGMMActorNetwork(
+        action_dim=12, std_activation=softplus, low_noise_eval=True, num_nodes=5, min_std=0.005
+  
+        encoder=ObservationGroupEncoder(
+            group=obs
+            ObservationEncoder(
+                Key(
+                    name=robot0_agentview_left_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_agentview_right_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_eye_in_hand_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_gripper_qpos
+                    shape=[2]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                output_shape=[208]
+            )
+        )
+  
+        transformer=GPT_Backbone(
+          (activation): GELU(approximate='none')
+          (nets): ModuleDict(
+            (transformer): Sequential(
+              (0): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (1): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (2): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (3): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (4): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (5): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+            )
+            (output_ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+  
+        decoder=ObservationDecoder(
+            Key(
+                name=mean
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=scale
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=logits
+                shape=(5,)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=5, bias=True))
+            )
+        )
+    )
+  )
+)
+
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  2%|2         | 1/47 [00:00<00:12,  3.74it/s]  6%|6         | 3/47 [00:00<00:05,  8.11it/s] 11%|#         | 5/47 [00:00<00:03, 10.90it/s] 15%|#4        | 7/47 [00:00<00:03, 12.65it/s] 19%|#9        | 9/47 [00:00<00:02, 13.78it/s] 23%|##3       | 11/47 [00:00<00:02, 14.54it/s] 28%|##7       | 13/47 [00:01<00:02, 15.05it/s] 32%|###1      | 15/47 [00:01<00:02, 15.40it/s] 36%|###6      | 17/47 [00:01<00:01, 15.64it/s] 40%|####      | 19/47 [00:01<00:01, 15.80it/s] 45%|####4     | 21/47 [00:01<00:01, 15.91it/s] 49%|####8     | 23/47 [00:01<00:01, 15.99it/s] 53%|#####3    | 25/47 [00:01<00:01, 16.05it/s] 57%|#####7    | 27/47 [00:01<00:01, 16.10it/s] 62%|######1   | 29/47 [00:02<00:01, 16.13it/s] 66%|######5   | 31/47 [00:02<00:00, 16.14it/s] 70%|#######   | 33/47 [00:02<00:00, 16.16it/s] 74%|#######4  | 35/47 [00:02<00:00, 16.18it/s] 79%|#######8  | 37/47 [00:02<00:00, 16.19it/s] 83%|########2 | 39/47 [00:02<00:00, 16.18it/s] 87%|########7 | 41/47 [00:02<00:00, 16.29it/s] 91%|#########1| 43/47 [00:02<00:00, 16.35it/s] 96%|#########5| 45/47 [00:03<00:00, 16.40it/s]100%|##########| 47/47 [00:03<00:00, 16.43it/s]100%|##########| 47/47 [00:03<00:00, 15.05it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 15.99it/s]  9%|8         | 4/47 [00:00<00:02, 16.10it/s] 13%|#2        | 6/47 [00:00<00:02, 16.13it/s] 17%|#7        | 8/47 [00:00<00:02, 16.15it/s] 21%|##1       | 10/47 [00:00<00:02, 16.16it/s] 26%|##5       | 12/47 [00:00<00:02, 16.18it/s] 30%|##9       | 14/47 [00:00<00:02, 16.18it/s] 34%|###4      | 16/47 [00:00<00:01, 16.19it/s] 38%|###8      | 18/47 [00:01<00:01, 16.19it/s] 43%|####2     | 20/47 [00:01<00:01, 16.19it/s] 47%|####6     | 22/47 [00:01<00:01, 16.18it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.19it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.19it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.20it/s] 64%|######3   | 30/47 [00:01<00:01, 16.20it/s] 68%|######8   | 32/47 [00:01<00:00, 16.20it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.19it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.19it/s] 81%|########  | 38/47 [00:02<00:00, 16.19it/s] 85%|########5 | 40/47 [00:02<00:00, 16.25it/s] 89%|########9 | 42/47 [00:02<00:00, 16.33it/s] 94%|#########3| 44/47 [00:02<00:00, 16.40it/s] 98%|#########7| 46/47 [00:02<00:00, 16.44it/s]100%|##########| 47/47 [00:02<00:00, 16.24it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.12it/s]  9%|8         | 4/47 [00:00<00:02, 16.17it/s] 13%|#2        | 6/47 [00:00<00:02, 16.19it/s] 17%|#7        | 8/47 [00:00<00:02, 16.18it/s] 21%|##1       | 10/47 [00:00<00:02, 16.17it/s] 26%|##5       | 12/47 [00:00<00:02, 16.17it/s] 30%|##9       | 14/47 [00:00<00:02, 16.18it/s] 34%|###4      | 16/47 [00:00<00:01, 16.17it/s] 38%|###8      | 18/47 [00:01<00:01, 16.17it/s] 43%|####2     | 20/47 [00:01<00:01, 16.18it/s] 47%|####6     | 22/47 [00:01<00:01, 16.19it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.18it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.19it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.19it/s] 64%|######3   | 30/47 [00:01<00:01, 16.20it/s] 68%|######8   | 32/47 [00:01<00:00, 16.20it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.20it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.20it/s] 81%|########  | 38/47 [00:02<00:00, 16.19it/s] 85%|########5 | 40/47 [00:02<00:00, 16.25it/s] 89%|########9 | 42/47 [00:02<00:00, 16.33it/s] 94%|#########3| 44/47 [00:02<00:00, 16.39it/s] 98%|#########7| 46/47 [00:02<00:00, 16.44it/s]100%|##########| 47/47 [00:02<00:00, 16.24it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.04it/s]  9%|8         | 4/47 [00:00<00:02, 16.11it/s] 13%|#2        | 6/47 [00:00<00:02, 16.13it/s] 17%|#7        | 8/47 [00:00<00:02, 16.14it/s] 21%|##1       | 10/47 [00:00<00:02, 16.15it/s] 26%|##5       | 12/47 [00:00<00:02, 16.16it/s] 30%|##9       | 14/47 [00:00<00:02, 16.16it/s] 34%|###4      | 16/47 [00:00<00:01, 16.16it/s] 38%|###8      | 18/47 [00:01<00:01, 16.16it/s] 43%|####2     | 20/47 [00:01<00:01, 16.16it/s] 47%|####6     | 22/47 [00:01<00:01, 16.16it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.16it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.16it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.17it/s] 64%|######3   | 30/47 [00:01<00:01, 16.17it/s] 68%|######8   | 32/47 [00:01<00:00, 16.17it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.17it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.16it/s] 81%|########  | 38/47 [00:02<00:00, 16.16it/s] 85%|########5 | 40/47 [00:02<00:00, 16.21it/s] 89%|########9 | 42/47 [00:02<00:00, 16.30it/s] 94%|#########3| 44/47 [00:02<00:00, 16.36it/s] 98%|#########7| 46/47 [00:02<00:00, 16.40it/s]100%|##########| 47/47 [00:02<00:00, 16.21it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.13it/s]  9%|8         | 4/47 [00:00<00:02, 16.13it/s] 13%|#2        | 6/47 [00:00<00:02, 16.17it/s] 17%|#7        | 8/47 [00:00<00:02, 16.18it/s] 21%|##1       | 10/47 [00:00<00:02, 16.19it/s] 26%|##5       | 12/47 [00:00<00:02, 16.19it/s] 30%|##9       | 14/47 [00:00<00:02, 16.19it/s] 34%|###4      | 16/47 [00:00<00:01, 16.19it/s] 38%|###8      | 18/47 [00:01<00:01, 16.19it/s] 43%|####2     | 20/47 [00:01<00:01, 16.19it/s] 47%|####6     | 22/47 [00:01<00:01, 16.19it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.18it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.16it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.17it/s] 64%|######3   | 30/47 [00:01<00:01, 16.18it/s] 68%|######8   | 32/47 [00:01<00:00, 16.18it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.19it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.18it/s] 81%|########  | 38/47 [00:02<00:00, 16.19it/s] 85%|########5 | 40/47 [00:02<00:00, 16.24it/s] 89%|########9 | 42/47 [00:02<00:00, 16.32it/s] 94%|#########3| 44/47 [00:02<00:00, 16.39it/s] 98%|#########7| 46/47 [00:02<00:00, 16.43it/s]100%|##########| 47/47 [00:02<00:00, 16.24it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.09it/s]  9%|8         | 4/47 [00:00<00:02, 16.12it/s] 13%|#2        | 6/47 [00:00<00:02, 16.12it/s] 17%|#7        | 8/47 [00:00<00:02, 16.14it/s] 21%|##1       | 10/47 [00:00<00:02, 16.12it/s] 26%|##5       | 12/47 [00:00<00:02, 16.12it/s] 30%|##9       | 14/47 [00:00<00:02, 16.13it/s] 34%|###4      | 16/47 [00:00<00:01, 16.14it/s] 38%|###8      | 18/47 [00:01<00:01, 16.13it/s] 43%|####2     | 20/47 [00:01<00:01, 16.14it/s] 47%|####6     | 22/47 [00:01<00:01, 16.15it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.16it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.16it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.15it/s] 64%|######3   | 30/47 [00:01<00:01, 16.16it/s] 68%|######8   | 32/47 [00:01<00:00, 16.16it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.14it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.15it/s] 81%|########  | 38/47 [00:02<00:00, 16.14it/s] 85%|########5 | 40/47 [00:02<00:00, 16.20it/s] 89%|########9 | 42/47 [00:02<00:00, 16.28it/s] 94%|#########3| 44/47 [00:02<00:00, 16.35it/s] 98%|#########7| 46/47 [00:02<00:00, 16.40it/s]100%|##########| 47/47 [00:02<00:00, 16.20it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.13it/s]  9%|8         | 4/47 [00:00<00:02, 16.15it/s] 13%|#2        | 6/47 [00:00<00:02, 16.17it/s] 17%|#7        | 8/47 [00:00<00:02, 16.17it/s] 21%|##1       | 10/47 [00:00<00:02, 16.18it/s] 26%|##5       | 12/47 [00:00<00:02, 16.19it/s] 30%|##9       | 14/47 [00:00<00:02, 16.19it/s] 34%|###4      | 16/47 [00:00<00:01, 16.20it/s] 38%|###8      | 18/47 [00:01<00:01, 16.20it/s] 43%|####2     | 20/47 [00:01<00:01, 16.20it/s] 47%|####6     | 22/47 [00:01<00:01, 16.19it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.20it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.20it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.19it/s] 64%|######3   | 30/47 [00:01<00:01, 16.20it/s] 68%|######8   | 32/47 [00:01<00:00, 16.20it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.21it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.21it/s] 81%|########  | 38/47 [00:02<00:00, 16.21it/s] 85%|########5 | 40/47 [00:02<00:00, 16.26it/s] 89%|########9 | 42/47 [00:02<00:00, 16.35it/s] 94%|#########3| 44/47 [00:02<00:00, 16.41it/s] 98%|#########7| 46/47 [00:02<00:00, 16.46it/s]100%|##########| 47/47 [00:02<00:00, 16.25it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 15.98it/s]  9%|8         | 4/47 [00:00<00:02, 16.12it/s] 13%|#2        | 6/47 [00:00<00:02, 16.15it/s] 17%|#7        | 8/47 [00:00<00:02, 16.17it/s] 21%|##1       | 10/47 [00:00<00:02, 16.19it/s] 26%|##5       | 12/47 [00:00<00:02, 16.20it/s] 30%|##9       | 14/47 [00:00<00:02, 16.20it/s] 34%|###4      | 16/47 [00:00<00:01, 16.19it/s] 38%|###8      | 18/47 [00:01<00:01, 16.19it/s] 43%|####2     | 20/47 [00:01<00:01, 16.20it/s] 47%|####6     | 22/47 [00:01<00:01, 16.20it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.20it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.20it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.20it/s] 64%|######3   | 30/47 [00:01<00:01, 16.20it/s] 68%|######8   | 32/47 [00:01<00:00, 16.20it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.20it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.20it/s] 81%|########  | 38/47 [00:02<00:00, 16.19it/s] 85%|########5 | 40/47 [00:02<00:00, 16.24it/s] 89%|########9 | 42/47 [00:02<00:00, 16.33it/s] 94%|#########3| 44/47 [00:02<00:00, 16.40it/s] 98%|#########7| 46/47 [00:02<00:00, 16.43it/s]100%|##########| 47/47 [00:02<00:00, 16.25it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.20it/s]  9%|8         | 4/47 [00:00<00:02, 16.24it/s] 13%|#2        | 6/47 [00:00<00:02, 16.26it/s] 17%|#7        | 8/47 [00:00<00:02, 16.26it/s] 21%|##1       | 10/47 [00:00<00:02, 16.26it/s] 26%|##5       | 12/47 [00:00<00:02, 16.27it/s] 30%|##9       | 14/47 [00:00<00:02, 16.28it/s] 34%|###4      | 16/47 [00:00<00:01, 16.28it/s] 38%|###8      | 18/47 [00:01<00:01, 16.28it/s] 43%|####2     | 20/47 [00:01<00:01, 16.29it/s] 47%|####6     | 22/47 [00:01<00:01, 16.28it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.28it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.28it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.28it/s] 64%|######3   | 30/47 [00:01<00:01, 16.29it/s] 68%|######8   | 32/47 [00:01<00:00, 16.28it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.28it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.28it/s] 81%|########  | 38/47 [00:02<00:00, 16.28it/s] 85%|########5 | 40/47 [00:02<00:00, 16.33it/s] 89%|########9 | 42/47 [00:02<00:00, 16.42it/s] 94%|#########3| 44/47 [00:02<00:00, 16.48it/s] 98%|#########7| 46/47 [00:02<00:00, 16.53it/s]100%|##########| 47/47 [00:02<00:00, 16.33it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.08it/s]  9%|8         | 4/47 [00:00<00:02, 16.18it/s] 13%|#2        | 6/47 [00:00<00:02, 16.22it/s] 17%|#7        | 8/47 [00:00<00:02, 16.25it/s] 21%|##1       | 10/47 [00:00<00:02, 16.25it/s] 26%|##5       | 12/47 [00:00<00:02, 16.27it/s] 30%|##9       | 14/47 [00:00<00:02, 16.27it/s] 34%|###4      | 16/47 [00:00<00:01, 16.26it/s] 38%|###8      | 18/47 [00:01<00:01, 16.28it/s] 43%|####2     | 20/47 [00:01<00:01, 16.27it/s] 47%|####6     | 22/47 [00:01<00:01, 16.27it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.26it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.27it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.27it/s] 64%|######3   | 30/47 [00:01<00:01, 16.28it/s] 68%|######8   | 32/47 [00:01<00:00, 16.28it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.29it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.28it/s] 81%|########  | 38/47 [00:02<00:00, 16.29it/s] 85%|########5 | 40/47 [00:02<00:00, 16.33it/s] 89%|########9 | 42/47 [00:02<00:00, 16.42it/s] 94%|#########3| 44/47 [00:02<00:00, 16.48it/s] 98%|#########7| 46/47 [00:02<00:00, 16.52it/s]100%|##########| 47/47 [00:02<00:00, 16.32it/s]
+getting language embeddings...
+  0%|          | 0/24 [00:00<?, ?it/s]  8%|8         | 2/24 [00:00<00:01, 16.55it/s] 17%|#6        | 4/24 [00:00<00:01, 16.60it/s] 25%|##5       | 6/24 [00:00<00:01, 16.62it/s] 33%|###3      | 8/24 [00:00<00:00, 16.62it/s] 42%|####1     | 10/24 [00:00<00:00, 16.62it/s] 50%|#####     | 12/24 [00:00<00:00, 16.62it/s] 58%|#####8    | 14/24 [00:00<00:00, 16.65it/s] 67%|######6   | 16/24 [00:00<00:00, 16.66it/s] 75%|#######5  | 18/24 [00:01<00:00, 16.67it/s] 83%|########3 | 20/24 [00:01<00:00, 16.68it/s] 92%|#########1| 22/24 [00:01<00:00, 16.69it/s]100%|##########| 24/24 [00:01<00:00, 16.68it/s]100%|##########| 24/24 [00:01<00:00, 16.65it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.22it/s]  9%|8         | 4/47 [00:00<00:02, 16.25it/s] 13%|#2        | 6/47 [00:00<00:02, 16.25it/s] 17%|#7        | 8/47 [00:00<00:02, 16.25it/s] 21%|##1       | 10/47 [00:00<00:02, 16.26it/s] 26%|##5       | 12/47 [00:00<00:02, 16.27it/s] 30%|##9       | 14/47 [00:00<00:02, 16.27it/s] 34%|###4      | 16/47 [00:00<00:01, 16.27it/s] 38%|###8      | 18/47 [00:01<00:01, 16.28it/s] 43%|####2     | 20/47 [00:01<00:01, 16.27it/s] 47%|####6     | 22/47 [00:01<00:01, 16.27it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.27it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.27it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.27it/s] 64%|######3   | 30/47 [00:01<00:01, 16.27it/s] 68%|######8   | 32/47 [00:01<00:00, 16.27it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.28it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.28it/s] 81%|########  | 38/47 [00:02<00:00, 16.28it/s] 85%|########5 | 40/47 [00:02<00:00, 16.33it/s] 89%|########9 | 42/47 [00:02<00:00, 16.42it/s] 94%|#########3| 44/47 [00:02<00:00, 16.48it/s] 98%|#########7| 46/47 [00:02<00:00, 16.52it/s]100%|##########| 47/47 [00:02<00:00, 16.33it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.21it/s]  9%|8         | 4/47 [00:00<00:02, 16.25it/s] 13%|#2        | 6/47 [00:00<00:02, 16.26it/s] 17%|#7        | 8/47 [00:00<00:02, 16.25it/s] 21%|##1       | 10/47 [00:00<00:02, 16.26it/s] 26%|##5       | 12/47 [00:00<00:02, 16.27it/s] 30%|##9       | 14/47 [00:00<00:02, 16.27it/s] 34%|###4      | 16/47 [00:00<00:01, 16.27it/s] 38%|###8      | 18/47 [00:01<00:01, 16.27it/s] 43%|####2     | 20/47 [00:01<00:01, 16.28it/s] 47%|####6     | 22/47 [00:01<00:01, 16.28it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.28it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.28it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.28it/s] 64%|######3   | 30/47 [00:01<00:01, 16.29it/s] 68%|######8   | 32/47 [00:01<00:00, 16.29it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.28it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.27it/s] 81%|########  | 38/47 [00:02<00:00, 16.27it/s] 85%|########5 | 40/47 [00:02<00:00, 16.33it/s] 89%|########9 | 42/47 [00:02<00:00, 16.42it/s] 94%|#########3| 44/47 [00:02<00:00, 16.49it/s] 98%|#########7| 46/47 [00:02<00:00, 16.54it/s]100%|##########| 47/47 [00:02<00:00, 16.33it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.14it/s]  9%|8         | 4/47 [00:00<00:02, 16.20it/s] 13%|#2        | 6/47 [00:00<00:02, 16.22it/s] 17%|#7        | 8/47 [00:00<00:02, 16.24it/s] 21%|##1       | 10/47 [00:00<00:02, 16.25it/s] 26%|##5       | 12/47 [00:00<00:02, 16.26it/s] 30%|##9       | 14/47 [00:00<00:02, 16.27it/s] 34%|###4      | 16/47 [00:00<00:01, 16.28it/s] 38%|###8      | 18/47 [00:01<00:01, 16.28it/s] 43%|####2     | 20/47 [00:01<00:01, 16.28it/s] 47%|####6     | 22/47 [00:01<00:01, 16.27it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.28it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.28it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.28it/s] 64%|######3   | 30/47 [00:01<00:01, 16.29it/s] 68%|######8   | 32/47 [00:01<00:00, 16.29it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.29it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.29it/s] 81%|########  | 38/47 [00:02<00:00, 16.29it/s] 85%|########5 | 40/47 [00:02<00:00, 16.34it/s] 89%|########9 | 42/47 [00:02<00:00, 16.43it/s] 94%|#########3| 44/47 [00:02<00:00, 16.48it/s] 98%|#########7| 46/47 [00:02<00:00, 16.53it/s]100%|##########| 47/47 [00:02<00:00, 16.33it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.15it/s]  9%|8         | 4/47 [00:00<00:02, 16.21it/s] 13%|#2        | 6/47 [00:00<00:02, 16.24it/s] 17%|#7        | 8/47 [00:00<00:02, 16.25it/s] 21%|##1       | 10/47 [00:00<00:02, 16.26it/s] 26%|##5       | 12/47 [00:00<00:02, 16.25it/s] 30%|##9       | 14/47 [00:00<00:02, 16.26it/s] 34%|###4      | 16/47 [00:00<00:01, 16.27it/s] 38%|###8      | 18/47 [00:01<00:01, 16.26it/s] 43%|####2     | 20/47 [00:01<00:01, 16.26it/s] 47%|####6     | 22/47 [00:01<00:01, 16.27it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.27it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.27it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.27it/s] 64%|######3   | 30/47 [00:01<00:01, 16.26it/s] 68%|######8   | 32/47 [00:01<00:00, 16.26it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.27it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.26it/s] 81%|########  | 38/47 [00:02<00:00, 16.26it/s] 85%|########5 | 40/47 [00:02<00:00, 16.32it/s] 89%|########9 | 42/47 [00:02<00:00, 16.40it/s] 94%|#########3| 44/47 [00:02<00:00, 16.47it/s] 98%|#########7| 46/47 [00:02<00:00, 16.52it/s]100%|##########| 47/47 [00:02<00:00, 16.32it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:03, 13.46it/s]  9%|8         | 4/47 [00:00<00:02, 14.97it/s] 13%|#2        | 6/47 [00:00<00:02, 15.53it/s] 17%|#7        | 8/47 [00:00<00:02, 15.81it/s] 21%|##1       | 10/47 [00:00<00:02, 15.96it/s] 26%|##5       | 12/47 [00:00<00:02, 16.06it/s] 30%|##9       | 14/47 [00:00<00:02, 16.13it/s] 34%|###4      | 16/47 [00:01<00:01, 16.18it/s] 38%|###8      | 18/47 [00:01<00:01, 16.21it/s] 43%|####2     | 20/47 [00:01<00:01, 16.22it/s] 47%|####6     | 22/47 [00:01<00:01, 16.24it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.25it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.26it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.26it/s] 64%|######3   | 30/47 [00:01<00:01, 16.25it/s] 68%|######8   | 32/47 [00:01<00:00, 16.25it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.26it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.27it/s] 81%|########  | 38/47 [00:02<00:00, 16.27it/s] 85%|########5 | 40/47 [00:02<00:00, 16.32it/s] 89%|########9 | 42/47 [00:02<00:00, 16.40it/s] 94%|#########3| 44/47 [00:02<00:00, 16.45it/s] 98%|#########7| 46/47 [00:02<00:00, 16.51it/s]100%|##########| 47/47 [00:02<00:00, 16.17it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.20it/s]  9%|8         | 4/47 [00:00<00:02, 16.24it/s] 13%|#2        | 6/47 [00:00<00:02, 16.24it/s] 17%|#7        | 8/47 [00:00<00:02, 16.25it/s] 21%|##1       | 10/47 [00:00<00:02, 16.25it/s] 26%|##5       | 12/47 [00:00<00:02, 16.25it/s] 30%|##9       | 14/47 [00:00<00:02, 16.24it/s] 34%|###4      | 16/47 [00:00<00:01, 16.25it/s] 38%|###8      | 18/47 [00:01<00:01, 16.25it/s] 43%|####2     | 20/47 [00:01<00:01, 16.24it/s] 47%|####6     | 22/47 [00:01<00:01, 16.25it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.25it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.25it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.25it/s] 64%|######3   | 30/47 [00:01<00:01, 16.25it/s] 68%|######8   | 32/47 [00:01<00:00, 16.26it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.26it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.25it/s] 81%|########  | 38/47 [00:02<00:00, 16.25it/s] 85%|########5 | 40/47 [00:02<00:00, 16.30it/s] 89%|########9 | 42/47 [00:02<00:00, 16.39it/s] 94%|#########3| 44/47 [00:02<00:00, 16.45it/s] 98%|#########7| 46/47 [00:02<00:00, 16.49it/s]100%|##########| 47/47 [00:02<00:00, 16.30it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.16it/s]  9%|8         | 4/47 [00:00<00:02, 16.20it/s] 13%|#2        | 6/47 [00:00<00:02, 16.21it/s] 17%|#7        | 8/47 [00:00<00:02, 16.20it/s] 21%|##1       | 10/47 [00:00<00:02, 16.20it/s] 26%|##5       | 12/47 [00:00<00:02, 16.21it/s] 30%|##9       | 14/47 [00:00<00:02, 16.22it/s] 34%|###4      | 16/47 [00:00<00:01, 16.21it/s] 38%|###8      | 18/47 [00:01<00:01, 16.22it/s] 43%|####2     | 20/47 [00:01<00:01, 16.22it/s] 47%|####6     | 22/47 [00:01<00:01, 16.22it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.23it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.22it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.23it/s] 64%|######3   | 30/47 [00:01<00:01, 16.23it/s] 68%|######8   | 32/47 [00:01<00:00, 16.23it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.23it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.23it/s] 81%|########  | 38/47 [00:02<00:00, 16.23it/s] 85%|########5 | 40/47 [00:02<00:00, 16.26it/s] 89%|########9 | 42/47 [00:02<00:00, 16.35it/s] 94%|#########3| 44/47 [00:02<00:00, 16.40it/s] 98%|#########7| 46/47 [00:02<00:00, 16.45it/s]100%|##########| 47/47 [00:02<00:00, 16.27it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:03, 14.51it/s]  9%|8         | 4/47 [00:00<00:03, 14.14it/s] 13%|#2        | 6/47 [00:00<00:02, 15.00it/s] 17%|#7        | 8/47 [00:00<00:02, 15.45it/s] 21%|##1       | 10/47 [00:00<00:02, 15.72it/s] 26%|##5       | 12/47 [00:00<00:02, 15.89it/s] 30%|##9       | 14/47 [00:00<00:02, 16.00it/s] 34%|###4      | 16/47 [00:01<00:01, 16.07it/s] 38%|###8      | 18/47 [00:01<00:01, 16.12it/s] 43%|####2     | 20/47 [00:01<00:01, 16.15it/s] 47%|####6     | 22/47 [00:01<00:01, 16.18it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.19it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.20it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.21it/s] 64%|######3   | 30/47 [00:01<00:01, 16.23it/s] 68%|######8   | 32/47 [00:02<00:00, 16.23it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.23it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.22it/s] 81%|########  | 38/47 [00:02<00:00, 16.23it/s] 85%|########5 | 40/47 [00:02<00:00, 16.28it/s] 89%|########9 | 42/47 [00:02<00:00, 16.37it/s] 94%|#########3| 44/47 [00:02<00:00, 16.42it/s] 98%|#########7| 46/47 [00:02<00:00, 16.47it/s]100%|##########| 47/47 [00:02<00:00, 16.09it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.06it/s]  9%|8         | 4/47 [00:00<00:02, 16.12it/s] 13%|#2        | 6/47 [00:00<00:02, 16.14it/s] 17%|#7        | 8/47 [00:00<00:02, 16.15it/s] 21%|##1       | 10/47 [00:00<00:02, 16.16it/s] 26%|##5       | 12/47 [00:00<00:02, 16.17it/s] 30%|##9       | 14/47 [00:00<00:02, 16.17it/s] 34%|###4      | 16/47 [00:00<00:01, 16.18it/s] 38%|###8      | 18/47 [00:01<00:01, 16.17it/s] 43%|####2     | 20/47 [00:01<00:01, 16.16it/s] 47%|####6     | 22/47 [00:01<00:01, 16.16it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.16it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.16it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.14it/s] 64%|######3   | 30/47 [00:01<00:01, 16.15it/s] 68%|######8   | 32/47 [00:01<00:00, 16.15it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.16it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.16it/s] 81%|########  | 38/47 [00:02<00:00, 16.16it/s] 85%|########5 | 40/47 [00:02<00:00, 16.22it/s] 89%|########9 | 42/47 [00:02<00:00, 16.31it/s] 94%|#########3| 44/47 [00:02<00:00, 16.36it/s] 98%|#########7| 46/47 [00:02<00:00, 16.41it/s]100%|##########| 47/47 [00:02<00:00, 16.22it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.09it/s]  9%|8         | 4/47 [00:00<00:02, 16.14it/s] 13%|#2        | 6/47 [00:00<00:02, 16.14it/s] 17%|#7        | 8/47 [00:00<00:02, 16.15it/s] 21%|##1       | 10/47 [00:00<00:02, 16.15it/s] 26%|##5       | 12/47 [00:00<00:02, 16.16it/s] 30%|##9       | 14/47 [00:00<00:02, 16.15it/s] 34%|###4      | 16/47 [00:00<00:01, 16.16it/s] 38%|###8      | 18/47 [00:01<00:01, 16.16it/s] 43%|####2     | 20/47 [00:01<00:01, 16.16it/s] 47%|####6     | 22/47 [00:01<00:01, 16.16it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.17it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.16it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.16it/s] 64%|######3   | 30/47 [00:01<00:01, 16.16it/s] 68%|######8   | 32/47 [00:01<00:00, 16.16it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.16it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.16it/s] 81%|########  | 38/47 [00:02<00:00, 16.16it/s] 85%|########5 | 40/47 [00:02<00:00, 16.22it/s] 89%|########9 | 42/47 [00:02<00:00, 16.30it/s] 94%|#########3| 44/47 [00:02<00:00, 16.37it/s] 98%|#########7| 46/47 [00:02<00:00, 16.41it/s]100%|##########| 47/47 [00:02<00:00, 16.22it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 15.98it/s]  9%|8         | 4/47 [00:00<00:02, 16.12it/s] 13%|#2        | 6/47 [00:00<00:02, 16.16it/s] 17%|#7        | 8/47 [00:00<00:02, 16.17it/s] 21%|##1       | 10/47 [00:00<00:02, 16.19it/s] 26%|##5       | 12/47 [00:00<00:02, 16.20it/s] 30%|##9       | 14/47 [00:00<00:02, 16.21it/s] 34%|###4      | 16/47 [00:00<00:01, 16.21it/s] 38%|###8      | 18/47 [00:01<00:01, 16.21it/s] 43%|####2     | 20/47 [00:01<00:01, 16.21it/s] 47%|####6     | 22/47 [00:01<00:01, 16.21it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.20it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.20it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.20it/s] 64%|######3   | 30/47 [00:01<00:01, 16.19it/s] 68%|######8   | 32/47 [00:01<00:00, 16.20it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.20it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.20it/s] 81%|########  | 38/47 [00:02<00:00, 16.20it/s] 85%|########5 | 40/47 [00:02<00:00, 16.26it/s] 89%|########9 | 42/47 [00:02<00:00, 16.33it/s] 94%|#########3| 44/47 [00:02<00:00, 16.39it/s] 98%|#########7| 46/47 [00:02<00:00, 16.44it/s]100%|##########| 47/47 [00:02<00:00, 16.25it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.15it/s]  9%|8         | 4/47 [00:00<00:02, 16.20it/s] 13%|#2        | 6/47 [00:00<00:02, 16.22it/s] 17%|#7        | 8/47 [00:00<00:02, 16.23it/s] 21%|##1       | 10/47 [00:00<00:02, 16.23it/s] 26%|##5       | 12/47 [00:00<00:02, 16.24it/s] 30%|##9       | 14/47 [00:00<00:02, 16.25it/s] 34%|###4      | 16/47 [00:00<00:01, 16.25it/s] 38%|###8      | 18/47 [00:01<00:01, 16.25it/s] 43%|####2     | 20/47 [00:01<00:01, 16.24it/s] 47%|####6     | 22/47 [00:01<00:01, 16.22it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.22it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.23it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.23it/s] 64%|######3   | 30/47 [00:01<00:01, 16.24it/s] 68%|######8   | 32/47 [00:01<00:00, 16.24it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.24it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.25it/s] 81%|########  | 38/47 [00:02<00:00, 16.24it/s] 85%|########5 | 40/47 [00:02<00:00, 16.29it/s] 89%|########9 | 42/47 [00:02<00:00, 16.38it/s] 94%|#########3| 44/47 [00:02<00:00, 16.45it/s] 98%|#########7| 46/47 [00:02<00:00, 16.48it/s]100%|##########| 47/47 [00:02<00:00, 16.29it/s]
+getting language embeddings...
+  0%|          | 0/47 [00:00<?, ?it/s]  4%|4         | 2/47 [00:00<00:02, 16.14it/s]  9%|8         | 4/47 [00:00<00:02, 16.19it/s] 13%|#2        | 6/47 [00:00<00:02, 16.22it/s] 17%|#7        | 8/47 [00:00<00:02, 16.22it/s] 21%|##1       | 10/47 [00:00<00:02, 16.23it/s] 26%|##5       | 12/47 [00:00<00:02, 16.24it/s] 30%|##9       | 14/47 [00:00<00:02, 16.24it/s] 34%|###4      | 16/47 [00:00<00:01, 16.25it/s] 38%|###8      | 18/47 [00:01<00:01, 16.24it/s] 43%|####2     | 20/47 [00:01<00:01, 16.24it/s] 47%|####6     | 22/47 [00:01<00:01, 16.24it/s] 51%|#####1    | 24/47 [00:01<00:01, 16.25it/s] 55%|#####5    | 26/47 [00:01<00:01, 16.25it/s] 60%|#####9    | 28/47 [00:01<00:01, 16.25it/s] 64%|######3   | 30/47 [00:01<00:01, 16.25it/s] 68%|######8   | 32/47 [00:01<00:00, 16.25it/s] 72%|#######2  | 34/47 [00:02<00:00, 16.25it/s] 77%|#######6  | 36/47 [00:02<00:00, 16.25it/s] 81%|########  | 38/47 [00:02<00:00, 16.24it/s] 85%|########5 | 40/47 [00:02<00:00, 16.29it/s] 89%|########9 | 42/47 [00:02<00:00, 16.39it/s] 94%|#########3| 44/47 [00:02<00:00, 16.44it/s] 98%|#########7| 46/47 [00:02<00:00, 16.48it/s]100%|##########| 47/47 [00:02<00:00, 16.30it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 381/2999 [00:00<00:00, 3809.57it/s] 26%|##5       | 773/2999 [00:00<00:00, 3872.45it/s] 39%|###8      | 1161/2999 [00:00<00:00, 3800.62it/s] 52%|#####1    | 1545/2999 [00:00<00:00, 3813.38it/s] 64%|######4   | 1927/2999 [00:00<00:00, 3812.45it/s] 77%|#######7  | 2319/2999 [00:00<00:00, 3848.63it/s] 90%|######### | 2708/2999 [00:00<00:00, 3860.05it/s]100%|##########| 2999/2999 [00:00<00:00, 3841.96it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 378/2999 [00:00<00:00, 3772.64it/s] 25%|##5       | 756/2999 [00:00<00:00, 3739.76it/s] 38%|###7      | 1131/2999 [00:00<00:00, 3742.69it/s] 50%|#####     | 1512/2999 [00:00<00:00, 3765.18it/s] 63%|######2   | 1889/2999 [00:00<00:00, 3737.36it/s] 75%|#######5  | 2263/2999 [00:00<00:00, 3729.67it/s] 88%|########8 | 2646/2999 [00:00<00:00, 3761.10it/s]100%|##########| 2999/2999 [00:00<00:00, 3742.74it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 12%|#1        | 348/2999 [00:00<00:00, 3476.85it/s] 24%|##3       | 717/2999 [00:00<00:00, 3596.46it/s] 36%|###5      | 1077/2999 [00:00<00:00, 3584.07it/s] 48%|####7     | 1436/2999 [00:00<00:00, 3557.59it/s] 60%|#####9    | 1798/2999 [00:00<00:00, 3577.97it/s] 72%|#######2  | 2163/2999 [00:00<00:00, 3602.11it/s] 84%|########4 | 2524/2999 [00:00<00:00, 3591.45it/s] 96%|#########6| 2888/2999 [00:00<00:00, 3604.14it/s]100%|##########| 2999/2999 [00:00<00:00, 3590.59it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 375/2999 [00:00<00:00, 3740.61it/s] 26%|##5       | 766/2999 [00:00<00:00, 3838.59it/s] 39%|###8      | 1161/2999 [00:00<00:00, 3888.28it/s] 52%|#####1    | 1558/2999 [00:00<00:00, 3918.50it/s] 65%|######5   | 1951/2999 [00:00<00:00, 3919.44it/s] 78%|#######8  | 2343/2999 [00:00<00:00, 3917.51it/s] 91%|#########1| 2739/2999 [00:00<00:00, 3930.69it/s]100%|##########| 2999/2999 [00:00<00:00, 3901.74it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 11%|#1        | 337/2999 [00:00<00:00, 3366.70it/s] 23%|##3       | 704/2999 [00:00<00:00, 3542.41it/s] 35%|###5      | 1063/2999 [00:00<00:00, 3560.12it/s] 47%|####7     | 1420/2999 [00:00<00:00, 3539.42it/s] 59%|#####9    | 1784/2999 [00:00<00:00, 3574.58it/s] 71%|#######1  | 2144/2999 [00:00<00:00, 3580.36it/s] 84%|########3 | 2509/2999 [00:00<00:00, 3602.71it/s] 96%|#########6| 2880/2999 [00:00<00:00, 3635.53it/s]100%|##########| 2999/2999 [00:00<00:00, 3587.15it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 389/2999 [00:00<00:00, 3883.33it/s] 26%|##5       | 778/2999 [00:00<00:00, 3850.80it/s] 39%|###8      | 1164/2999 [00:00<00:00, 3791.97it/s] 52%|#####1    | 1547/2999 [00:00<00:00, 3804.62it/s] 64%|######4   | 1934/2999 [00:00<00:00, 3826.43it/s] 77%|#######7  | 2317/2999 [00:00<00:00, 3787.95it/s] 90%|######### | 2704/2999 [00:00<00:00, 3813.69it/s]100%|##########| 2999/2999 [00:00<00:00, 3822.39it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 12%|#2        | 362/2999 [00:00<00:00, 3613.57it/s] 25%|##4       | 749/2999 [00:00<00:00, 3760.89it/s] 38%|###7      | 1138/2999 [00:00<00:00, 3814.92it/s] 51%|#####     | 1525/2999 [00:00<00:00, 3835.84it/s] 64%|######3   | 1909/2999 [00:00<00:00, 3836.30it/s] 77%|#######6  | 2298/2999 [00:00<00:00, 3851.93it/s] 89%|########9 | 2684/2999 [00:00<00:00, 3841.26it/s]100%|##########| 2999/2999 [00:00<00:00, 3802.06it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#3        | 398/2999 [00:00<00:00, 3975.03it/s] 27%|##6       | 796/2999 [00:00<00:00, 3969.36it/s] 40%|###9      | 1194/2999 [00:00<00:00, 3973.67it/s] 53%|#####3    | 1596/2999 [00:00<00:00, 3989.99it/s] 67%|######6   | 1996/2999 [00:00<00:00, 3964.03it/s] 80%|#######9  | 2399/2999 [00:00<00:00, 3984.33it/s] 94%|#########3| 2806/2999 [00:00<00:00, 4011.62it/s]100%|##########| 2999/2999 [00:00<00:00, 3990.54it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#3        | 404/2999 [00:00<00:00, 4029.89it/s] 27%|##6       | 807/2999 [00:00<00:00, 4002.38it/s] 40%|####      | 1208/2999 [00:00<00:00, 3980.46it/s] 54%|#####3    | 1607/2999 [00:00<00:00, 3961.26it/s] 67%|######6   | 2004/2999 [00:00<00:00, 3954.85it/s] 80%|########  | 2400/2999 [00:00<00:00, 3942.46it/s] 93%|#########3| 2800/2999 [00:00<00:00, 3957.98it/s]100%|##########| 2999/2999 [00:00<00:00, 3961.43it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#3        | 395/2999 [00:00<00:00, 3945.76it/s] 27%|##6       | 798/2999 [00:00<00:00, 3994.60it/s] 40%|###9      | 1199/2999 [00:00<00:00, 4000.51it/s] 53%|#####3    | 1603/2999 [00:00<00:00, 4013.34it/s] 67%|######6   | 2009/2999 [00:00<00:00, 4026.93it/s] 80%|########  | 2414/2999 [00:00<00:00, 4033.06it/s] 94%|#########4| 2826/2999 [00:00<00:00, 4058.42it/s]100%|##########| 2999/2999 [00:00<00:00, 4024.88it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/1499 [00:00<?, ?it/s] 22%|##2       | 333/1499 [00:00<00:00, 3320.30it/s] 44%|####4     | 666/1499 [00:00<00:00, 3264.51it/s] 66%|######6   | 993/1499 [00:00<00:00, 3215.76it/s] 88%|########8 | 1320/1499 [00:00<00:00, 3236.20it/s]100%|##########| 1499/1499 [00:00<00:00, 3228.10it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 12%|#2        | 373/2999 [00:00<00:00, 3727.72it/s] 25%|##4       | 746/2999 [00:00<00:00, 3699.92it/s] 37%|###7      | 1124/2999 [00:00<00:00, 3735.07it/s] 50%|####9     | 1498/2999 [00:00<00:00, 3670.92it/s] 62%|######2   | 1866/2999 [00:00<00:00, 3673.34it/s] 75%|#######4  | 2241/2999 [00:00<00:00, 3698.37it/s] 87%|########7 | 2611/2999 [00:00<00:00, 3697.41it/s] 99%|#########9| 2981/2999 [00:00<00:00, 3693.83it/s]100%|##########| 2999/2999 [00:00<00:00, 3692.80it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 411/2999 [00:00<00:00, 4100.80it/s] 28%|##7       | 830/2999 [00:00<00:00, 4150.70it/s] 42%|####1     | 1250/2999 [00:00<00:00, 4170.72it/s] 56%|#####5    | 1668/2999 [00:00<00:00, 4108.47it/s] 69%|######9   | 2084/2999 [00:00<00:00, 4125.96it/s] 83%|########3 | 2501/2999 [00:00<00:00, 4139.54it/s] 97%|#########7| 2916/2999 [00:00<00:00, 4128.70it/s]100%|##########| 2999/2999 [00:00<00:00, 4124.08it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 419/2999 [00:00<00:00, 4188.99it/s] 28%|##7       | 838/2999 [00:00<00:00, 4172.33it/s] 42%|####1     | 1259/2999 [00:00<00:00, 4189.15it/s] 56%|#####5    | 1679/2999 [00:00<00:00, 4192.22it/s] 70%|######9   | 2099/2999 [00:00<00:00, 4176.04it/s] 84%|########4 | 2521/2999 [00:00<00:00, 4190.45it/s] 98%|#########8| 2941/2999 [00:00<00:00, 4160.75it/s]100%|##########| 2999/2999 [00:00<00:00, 4168.67it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 411/2999 [00:00<00:00, 4099.95it/s] 27%|##7       | 821/2999 [00:00<00:00, 4069.23it/s] 41%|####1     | 1233/2999 [00:00<00:00, 4088.30it/s] 55%|#####4    | 1646/2999 [00:00<00:00, 4102.93it/s] 69%|######8   | 2057/2999 [00:00<00:00, 4091.38it/s] 82%|########2 | 2467/2999 [00:00<00:00, 4040.13it/s] 96%|#########5| 2879/2999 [00:00<00:00, 4064.28it/s]100%|##########| 2999/2999 [00:00<00:00, 4064.09it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 413/2999 [00:00<00:00, 4120.26it/s] 28%|##7       | 826/2999 [00:00<00:00, 4082.30it/s] 41%|####1     | 1235/2999 [00:00<00:00, 4063.79it/s] 55%|#####4    | 1647/2999 [00:00<00:00, 4085.30it/s] 69%|######8   | 2056/2999 [00:00<00:00, 4069.98it/s] 82%|########2 | 2464/2999 [00:00<00:00, 4052.15it/s] 96%|#########5| 2879/2999 [00:00<00:00, 4082.60it/s]100%|##########| 2999/2999 [00:00<00:00, 4068.93it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#4        | 427/2999 [00:00<00:00, 4267.34it/s] 29%|##8       | 856/2999 [00:00<00:00, 4279.19it/s] 43%|####2     | 1284/2999 [00:00<00:00, 4258.68it/s] 57%|#####7    | 1714/2999 [00:00<00:00, 4271.94it/s] 71%|#######1  | 2142/2999 [00:00<00:00, 4253.23it/s] 86%|########5 | 2573/2999 [00:00<00:00, 4271.97it/s]100%|##########| 2999/2999 [00:00<00:00, 4271.55it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#3        | 402/2999 [00:00<00:00, 4014.49it/s] 27%|##7       | 813/2999 [00:00<00:00, 4068.94it/s] 41%|####1     | 1234/2999 [00:00<00:00, 4130.57it/s] 55%|#####4    | 1648/2999 [00:00<00:00, 4078.32it/s] 69%|######8   | 2056/2999 [00:00<00:00, 4071.40it/s] 82%|########2 | 2464/2999 [00:00<00:00, 4056.22it/s] 96%|#########5| 2875/2999 [00:00<00:00, 4072.15it/s]100%|##########| 2999/2999 [00:00<00:00, 4068.32it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 419/2999 [00:00<00:00, 4181.53it/s] 28%|##7       | 838/2999 [00:00<00:00, 4186.19it/s] 42%|####1     | 1257/2999 [00:00<00:00, 4181.45it/s] 56%|#####5    | 1676/2999 [00:00<00:00, 4155.82it/s] 70%|######9   | 2092/2999 [00:00<00:00, 4125.90it/s] 84%|########3 | 2507/2999 [00:00<00:00, 4131.09it/s] 97%|#########7| 2923/2999 [00:00<00:00, 4139.61it/s]100%|##########| 2999/2999 [00:00<00:00, 4147.12it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 388/2999 [00:00<00:00, 3872.49it/s] 26%|##6       | 784/2999 [00:00<00:00, 3923.10it/s] 39%|###9      | 1182/2999 [00:00<00:00, 3948.85it/s] 53%|#####2    | 1577/2999 [00:00<00:00, 3939.14it/s] 66%|######5   | 1971/2999 [00:00<00:00, 3936.80it/s] 79%|#######8  | 2369/2999 [00:00<00:00, 3950.14it/s] 92%|#########2| 2765/2999 [00:00<00:00, 3949.22it/s]100%|##########| 2999/2999 [00:00<00:00, 3943.33it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 13%|#2        | 375/2999 [00:00<00:00, 3747.44it/s] 25%|##5       | 755/2999 [00:00<00:00, 3774.51it/s] 38%|###8      | 1141/2999 [00:00<00:00, 3813.16it/s] 51%|#####     | 1523/2999 [00:00<00:00, 3792.01it/s] 63%|######3   | 1904/2999 [00:00<00:00, 3797.51it/s] 76%|#######6  | 2287/2999 [00:00<00:00, 3805.44it/s] 89%|########8 | 2668/2999 [00:00<00:00, 3797.90it/s]100%|##########| 2999/2999 [00:00<00:00, 3801.16it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#4        | 430/2999 [00:00<00:00, 4298.62it/s] 29%|##9       | 875/2999 [00:00<00:00, 4385.59it/s] 44%|####3     | 1316/2999 [00:00<00:00, 4396.01it/s] 59%|#####8    | 1756/2999 [00:00<00:00, 4390.94it/s] 73%|#######3  | 2198/2999 [00:00<00:00, 4401.25it/s] 88%|########8 | 2644/2999 [00:00<00:00, 4417.74it/s]100%|##########| 2999/2999 [00:00<00:00, 4400.96it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 414/2999 [00:00<00:00, 4138.15it/s] 28%|##7       | 832/2999 [00:00<00:00, 4161.07it/s] 42%|####1     | 1249/2999 [00:00<00:00, 4163.15it/s] 56%|#####5    | 1666/2999 [00:00<00:00, 4151.19it/s] 69%|######9   | 2082/2999 [00:00<00:00, 4142.83it/s] 83%|########3 | 2498/2999 [00:00<00:00, 4145.52it/s] 97%|#########7| 2915/2999 [00:00<00:00, 4151.06it/s]100%|##########| 2999/2999 [00:00<00:00, 4142.93it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/2999 [00:00<?, ?it/s] 14%|#3        | 412/2999 [00:00<00:00, 4114.62it/s] 27%|##7       | 824/2999 [00:00<00:00, 4032.52it/s] 41%|####1     | 1233/2999 [00:00<00:00, 4056.49it/s] 55%|#####4    | 1639/2999 [00:00<00:00, 4046.81it/s] 68%|######8   | 2054/2999 [00:00<00:00, 4081.24it/s] 82%|########2 | 2464/2999 [00:00<00:00, 4085.48it/s] 96%|#########5| 2873/2999 [00:00<00:00, 4080.79it/s]100%|##########| 2999/2999 [00:00<00:00, 4075.44it/s]
+
+============= Training Dataset =============
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToCab/mg/2024-05-04-22-12-27_and_2024-05-07-07-39-33/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=777674
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCabToCounter/mg/2024-07-12-04-33-29/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=1011843
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToSink/mg/2024-05-04-22-14-06_and_2024-05-07-07-40-17/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=1321450
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPSinkToCounter/mg/2024-05-04-22-14-34_and_2024-05-07-07-40-21/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=822477
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToMicrowave/mg/2024-05-04-22-13-21_and_2024-05-07-07-41-17/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=1281129
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPMicrowaveToCounter/mg/2024-05-04-22-14-26_and_2024-05-07-07-41-42/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=945156
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToStove/mg/2024-05-04-22-14-20/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=957229
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPStoveToCounter/mg/2024-05-04-22-14-40/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=816366
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_doors/OpenSingleDoor/mg/2024-05-04-22-37-39/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=808202
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_doors/CloseSingleDoor/mg/2024-05-04-22-34-56/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=786126
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_doors/OpenDoubleDoor/mg/2024-05-04-22-35-53/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=1500
+	num_sequences=1080557
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_doors/CloseDoubleDoor/mg/2024-05-04-22-22-42_and_2024-05-08-06-02-36/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=1209559
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_drawer/OpenDrawer/mg/2024-05-04-22-38-42/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=674374
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_drawer/CloseDrawer/mg/2024-05-09-09-32-19/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=619411
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_sink/TurnOnSinkFaucet/mg/2024-05-04-22-17-46/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=718880
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_sink/TurnOffSinkFaucet/mg/2024-05-04-22-17-26/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=597645
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_sink/TurnSinkSpout/mg/2024-05-09-09-31-12/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=399024
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_stove/TurnOnStove/mg/2024-05-08-09-20-31/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=637617
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_stove/TurnOffStove/mg/2024-05-08-09-20-45/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=544815
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_coffee/CoffeeSetupMug/mg/2024-05-04-22-22-13_and_2024-05-08-05-52-13/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=833482
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_coffee/CoffeeServeMug/mg/2024-05-04-22-21-50/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=1010648
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_coffee/CoffeePressButton/mg/2024-05-04-22-21-32/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=372446
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_microwave/TurnOnMicrowave/mg/2024-05-04-22-40-00/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=702401
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_microwave/TurnOffMicrowave/mg/2024-05-04-22-39-23/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=3000_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=3000
+	num_sequences=703625
+)
+
+**************************************************
+Warnings generated by robomimic have been duplicated here (from above) for convenience. Please check them carefully.
+**************************************************
+
+
+Epoch 0 Memory Usage: 5751 MB
+
+  0%|          | 0/10 [00:00<?, ?it/s]ObservationKeyToModalityDict: pad_mask not found, adding pad_mask to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: progresses not found, adding progresses to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: lang_emb not found, adding lang_emb to mapping with assumed low_dim modality!
+ 10%|#         | 1/10 [00:23<03:35, 23.93s/it] 20%|##        | 2/10 [00:24<01:21, 10.20s/it] 30%|###       | 3/10 [00:25<00:40,  5.78s/it] 40%|####      | 4/10 [00:25<00:22,  3.71s/it] 50%|#####     | 5/10 [00:27<00:15,  3.00s/it] 60%|######    | 6/10 [00:36<00:19,  4.96s/it] 70%|#######   | 7/10 [00:41<00:15,  5.14s/it] 80%|########  | 8/10 [00:49<00:11,  5.96s/it] 90%|######### | 9/10 [00:49<00:04,  4.26s/it]100%|##########| 10/10 [00:52<00:00,  3.89s/it]100%|##########| 10/10 [00:52<00:00,  5.29s/it]
+Train Epoch 1
+{
+    "Log_Likelihood": 30.373410034179688,
+    "Loss": -30.373410034179688,
+    "Optimizer/policy0_lr": 5.5e-08,
+    "Policy_Grad_Norms": 9999.999153691246,
+    "Time_Data_Loading": 0.010590815544128418,
+    "Time_Epoch": 0.8962466597557068,
+    "Time_Log_Info": 3.505150477091472e-05,
+    "Time_Process_Batch": 0.0027876933415730792,
+    "Time_Train_Batch": 0.8681410193443299
+}
+
+Epoch 1 Memory Usage: 7082 MB
+
+finished run successfully!

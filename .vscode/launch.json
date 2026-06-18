@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "cProfile",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": false,
+            "args": [
+        "-o", "train.prof",
+        "${workspaceFolder}/robomimic/scripts/train.py",
+        "--config",
+        "robomimic/scripts/run_configs/experiment-proof-completion-infuse/align.json"
+        ]
+        }
+    ]
+}

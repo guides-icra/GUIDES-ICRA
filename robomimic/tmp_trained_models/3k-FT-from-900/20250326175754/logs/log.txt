@@ -1,0 +1,433 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_gripper_qpos', 'robot0_base_to_eef_quat']
+using obs modality: rgb with keys: ['robot0_agentview_left_image', 'robot0_eye_in_hand_image', 'robot0_agentview_right_image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+============= Loaded Environment Metadata =============
+obs key robot0_agentview_left_image with shape (128, 128, 3)
+obs key robot0_agentview_right_image with shape (128, 128, 3)
+obs key robot0_base_pos with shape (3,)
+obs key robot0_base_quat with shape (4,)
+obs key robot0_base_to_eef_pos with shape (3,)
+obs key robot0_base_to_eef_quat with shape (4,)
+obs key robot0_eye_in_hand_image with shape (128, 128, 3)
+obs key robot0_gripper_qpos with shape (2,)
+
+devicebc cuda:0
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/scratch/tshu2/xli383/miniconda3/envs/myenv/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Created GPT_Backbone model with number of parameters: 18906112
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|###3      | 1/3 [00:03<00:06,  3.25s/it]Loading checkpoint shards:  67%|######6   | 2/3 [00:07<00:03,  3.84s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:11<00:00,  3.99s/it]Loading checkpoint shards: 100%|##########| 3/3 [00:11<00:00,  3.89s/it]
+devicebc cuda:0
+Created GPT_Backbone model with number of parameters: 18906112
+LOADING MODEL WEIGHTS FROM /weka/scratch/tshu2/xli383/research/completion-infuse-robot/models/3k_model_epoch_900.pth
+
+============= Model Summary =============
+ObservationKeyToModalityDict: mean not found, adding mean to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: scale not found, adding scale to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: logits not found, adding logits to mapping with assumed low_dim modality!
+BC_Transformer_GMM (
+  ModuleDict(
+    (policy): TransformerGMMActorNetwork(
+        action_dim=12, std_activation=softplus, low_noise_eval=True, num_nodes=5, min_std=0.005
+  
+        encoder=ObservationGroupEncoder(
+            group=obs
+            ObservationEncoder(
+                Key(
+                    name=robot0_agentview_left_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_agentview_right_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_pos
+                    shape=[3]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_base_to_eef_quat
+                    shape=[4]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_eye_in_hand_image
+                    shape=[3, 128, 128]
+                    modality=rgb
+                    randomizer=ModuleList(
+                      (0): CropRandomizer(input_shape=[3, 128, 128], crop_size=[116, 116], num_crops=1)
+                    )
+                    net=VisualCoreLanguageConditioned(
+                      input_shape=[3, 116, 116]
+                      output_shape=[64]
+                      backbone_net=ResNet18ConvFiLM(input_channel=3, input_coord_conv=False)
+                      pool_net=SpatialSoftmax(num_kp=32, temperature=1.0, noise=0.0)
+                    )
+                    sharing_from=None
+                )
+                Key(
+                    name=robot0_gripper_qpos
+                    shape=[2]
+                    modality=low_dim
+                    randomizer=ModuleList(
+                      (0): None
+                    )
+                    net=None
+                    sharing_from=None
+                )
+                output_shape=[208]
+            )
+        )
+  
+        transformer=GPT_Backbone(
+          (activation): GELU(approximate='none')
+          (nets): ModuleDict(
+            (transformer): Sequential(
+              (0): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (1): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (2): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (3): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (4): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+              (5): SelfAttentionBlock(
+                (nets): ModuleDict(
+                  (attention): SelfAttention(
+                    (nets): ModuleDict(
+                      (qkv): Linear(in_features=512, out_features=1536, bias=False)
+                      (attn_dropout): Dropout(p=0.1, inplace=False)
+                      (output_dropout): Dropout(p=0.1, inplace=False)
+                      (output): Linear(in_features=512, out_features=512, bias=True)
+                    )
+                  )
+                  (mlp): Sequential(
+                    (0): Linear(in_features=512, out_features=2048, bias=True)
+                    (1): GELU(approximate='none')
+                    (2): Linear(in_features=2048, out_features=512, bias=True)
+                    (3): Dropout(p=0.1, inplace=False)
+                  )
+                  (ln1): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                  (ln2): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+                )
+              )
+            )
+            (output_ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+  
+        decoder=ObservationDecoder(
+            Key(
+                name=mean
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=scale
+                shape=(5, 12)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=60, bias=True))
+            )
+            Key(
+                name=logits
+                shape=(5,)
+                modality=low_dim
+                net=(Linear(in_features=512, out_features=5, bias=True))
+            )
+        )
+    )
+  )
+)
+
+getting language embeddings...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|##########| 1/1 [00:00<00:00,  4.10it/s]100%|##########| 1/1 [00:00<00:00,  4.09it/s]
+getting language embeddings...
+  0%|          | 0/1 [00:00<?, ?it/s]100%|##########| 1/1 [00:00<00:00, 16.41it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/49 [00:00<?, ?it/s]100%|##########| 49/49 [00:00<00:00, 3709.63it/s]
+SequenceDataset: normalizing actions...
+  0%|          | 0/49 [00:00<?, ?it/s]100%|##########| 49/49 [00:00<00:00, 3512.82it/s]
+
+============= Training Dataset =============
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCounterToCab/mg/2024-05-04-22-12-27_and_2024-05-07-07-39-33/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=50_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=50
+	num_sequences=12392
+)
+SequenceDataset (
+	path=/weka/scratch/tshu2/xli383/research/completion-infuse-robot/robocasa/datasets/v0.1/single_stage/kitchen_pnp/PnPCabToCounter/mg/2024-07-12-04-33-29/demo_gentex_im128_randcams.hdf5
+	obs_keys=('robot0_agentview_left_image', 'robot0_agentview_right_image', 'robot0_base_pos', 'robot0_base_quat', 'robot0_base_to_eef_pos', 'robot0_base_to_eef_quat', 'robot0_eye_in_hand_image', 'robot0_gripper_qpos')
+	seq_length=10
+	filter_key=50_demos
+	frame_stack=10
+	pad_seq_length=True
+	pad_frame_stack=True
+	goal_mode=none
+	cache_mode=none
+	num_demos=50
+	num_sequences=17254
+)
+
+**************************************************
+Warnings generated by robomimic have been duplicated here (from above) for convenience. Please check them carefully.
+**************************************************
+
+
+Epoch 0 Memory Usage: 3778 MB
+
+  0%|          | 0/10 [00:00<?, ?it/s]ObservationKeyToModalityDict: pad_mask not found, adding pad_mask to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: progresses not found, adding progresses to mapping with assumed low_dim modality!
+ObservationKeyToModalityDict: lang_emb not found, adding lang_emb to mapping with assumed low_dim modality!
+condition The robot should pick the cupcake from the cabinet and place it on the counter.
+next_action Move towards the cupcake and use the gripper to pick it up.
+condition The robot is facing a cabinet with a banana inside, and there is a painting brush holder with brushes on the counter.
+next_action The robot should open the cabinet, pick up the banana, and place it on the counter.
+condition The robot is facing a croissant on the counter and has a gripper near the croissant.
+next_action The robot should pick up the croissant using the gripper and place it in the cabinet.
+condition The robot is facing a cabinet with a jam jar on top, and there is a marble-like object on the counter.
+next_action The robot should reach up and pick the jam jar from the cabinet.
+condition The orange is on the cabinet, and the gripper is close to it.
+next_action The robot should move the gripper to pick up the orange.
+condition The kiwi is on the cabinet, and the gripper is positioned to grasp it.
+next_action The robot should move the gripper to pick up the kiwi and place it on the counter.
+condition The robot is facing a cabinet with a bottle inside it.
+next_action The robot should open the cabinet and pick up the bottled drink.
+condition The robot is facing the bell pepper and bread on the counter.
+next_action Pick up the bell pepper.
+condition The robot is facing a toaster and an apple is above it on a shelf.
+next_action The robot should move its gripper to pick up the apple.
+condition The robot is facing a corn on the counter and a bag of chips above it.
+next_action Pick the corn from the counter and place it in the cabinet.
+condition The carrot is on the counter and the cabinet is nearby.
+next_action The robot should pick up the carrot and move towards the cabinet to place it inside.
+condition The robot is facing a pear on a counter and has a gripper near the pear.
+next_action The robot should reach out and pick up the pear using the gripper.
+condition The robot is facing a small brown object on a white surface, which appears to be a bottled drink. The robot's gripper is open and ready to grasp.
+next_action The robot should reach out with its gripper and pick up the bottled drink from the counter.
+condition The robot is facing the counter with a tomato on it and a hot dog on the floor.
+next_action The robot should reach for the tomato and place it in the cabinet.
+condition The robot is facing a brick wall and a toaster on the counter.
+next_action The robot should turn 180 degrees to face the toaster and pick it up.
+condition The robot is facing a cabinet with a toaster on the counter in front of it.
+next_action The robot should open the cabinet and pick the condiment bottle from the shelf.
+ 10%|#         | 1/10 [00:22<03:24, 22.71s/it] 20%|##        | 2/10 [00:23<01:17,  9.70s/it] 30%|###       | 3/10 [00:23<00:38,  5.52s/it] 40%|####      | 4/10 [00:24<00:21,  3.57s/it]condition The robot is facing a countertop with a kiwi and a white circular object on it.
+next_action Pick the kiwi from the counter and place it in the cabinet.
+condition The robot is facing the counter with the carrot on it and the bottle above it.
+next_action The robot should reach for the carrot and pick it up.
+ 50%|#####     | 5/10 [00:27<00:17,  3.44s/it]condition The robot is facing a piece of cheese on a table, with its gripper close to the cheese.
+next_action The robot should use its gripper to pick up the cheese and place it on the counter.
+condition The robot is facing the cucumber on the counter, with its gripper close to the object.
+next_action The robot should reach out and pick up the cucumber using its gripper.
+ 60%|######    | 6/10 [00:31<00:13,  3.45s/it]condition The lime is on the counter, and the robot's gripper is close to it.
+next_action Pick the lime from the counter.
+condition The robot is facing a red object on the counter, with a wooden surface above and a white object below.
+next_action The robot should pick up the red object from the counter.
+condition The robot is facing a kettle on the counter and a cabinet above it.
+next_action The robot should reach up and pick the kettle from the cabinet.
+condition The robot is currently in a cabinet, and there is an electric kettle on the counter.
+next_action The robot should reach for the kettle electric and pick it up.
+condition The robot is facing a fish on the cabinet and has a gripper close to the fish.
+next_action The robot should grasp the fish with the gripper and place it on the counter.
+condition The robot is facing the corn and the gripper is close to the corn.
+next_action The robot should grasp the corn and move it towards the cabinet.
+condition The robot is facing the counter with the orange on it, and the gripper is open.
+next_action The robot should close the gripper and pick up the orange.
+condition The orange is on the counter and the meat is in the air.
+next_action The robot should pick up the orange from the counter and place it in the cabinet.
+condition The robot is facing a kitchen counter with an apple and a cabinet above it.
+next_action The robot should reach up and pick up the apple from the counter and place it in the cabinet.
+condition The robot is facing a potato on the counter, with scissors above it.
+next_action The robot should pick up the potato while avoiding the scissors.
+condition The robot is facing a brick wall and a red object is located above it.
+next_action The robot should turn 180 degrees to face the red object and pick it up.
+ 70%|#######   | 7/10 [00:45<00:21,  7.08s/it]condition The image shows a virtual environment with a hot dog on a table and a bottle of wine. The robot's end-effector is close to the hot dog, and its orientation suggests it is facing the hot dog.
+next_action The robot should pick up the hot dog from the table using its gripper.
+ 80%|########  | 8/10 [00:48<00:11,  5.67s/it] 90%|######### | 9/10 [00:48<00:04,  4.07s/it]condition The robot is facing a green and red object on a counter, with a black object above it.
+next_action The robot should pick up the green and red object from the counter and place it in the cabinet.
+100%|##########| 10/10 [00:51<00:00,  3.51s/it]100%|##########| 10/10 [00:51<00:00,  5.11s/it]
+Train Epoch 1
+{
+    "Log_Likelihood": 29.51354389190674,
+    "Loss": -29.51354389190674,
+    "Optimizer/policy0_lr": 5.5e-08,
+    "Policy_Grad_Norms": 9999.999602398702,
+    "Time_Data_Loading": 0.011376905441284179,
+    "Time_Epoch": 0.8534279902776082,
+    "Time_Log_Info": 9.202957153320313e-06,
+    "Time_Process_Batch": 0.003930707772572835,
+    "Time_Train_Batch": 0.8368103901545206
+}
+
+Epoch 1 Memory Usage: 4752 MB
+
+finished run successfully!
